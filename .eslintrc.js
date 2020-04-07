@@ -36,7 +36,8 @@ module.exports = {
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
     'react/jsx-props-no-spreading': 'off',
-    'no-underscore-dangle': ['error', { 'allow': ['_id'] }]
+    'no-underscore-dangle': ['error', { 'allow': ['_id'] }],
+    'camelcase': ["error", {allow: ['avatar_id']}]
   },
   settings: {
     "import/resolver" : {
