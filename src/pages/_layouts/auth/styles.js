@@ -8,6 +8,7 @@ export const Wrapper = styled.div`
   background-image: url(${imageBack});
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
