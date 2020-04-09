@@ -8,7 +8,6 @@ export const Wrapper = styled.div`
   background-image: url(${imageBack});
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,7 +18,7 @@ export const Content = styled.div`
   max-width: 450px;
   text-align: center;
   border: 10px outset #eee;
-  padding: 50px;
+  padding: 30px;
   backdrop-filter: blur(5px);
 
   form {
